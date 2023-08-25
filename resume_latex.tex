@@ -1,0 +1,258 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Yuvraj Talukdar}} & Email: \href{mailto:}{yuvrajtalukdar@gmail.com}\\
+   & Mobile:~~~+8638379467 \\
+
+\end{tabular*}
+
+%-----------PROJECTS-----------------
+\vspace{5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+  	\resumeSubItem
+    {CR RAO AIMSCS · Internship (April 2022 - June 2023)}\\
+    {}
+    \begin{itemize}
+    \item \textbf{Work Area:} Cryptanalysis
+    \item \textbf{Duty:} 
+    	\begin{itemize} 
+            \item Use different ML algorithm for analysis.
+            \item Work with MPI for parallelizing some algorithms and running them on HPC.
+            \item Implement a novel ML algorithm in CUDA.
+            \item Analysis of several text data and using clustering algorithms to create clusters. 
+            \item Writing a transformer model for generating new data.
+          \end{itemize}
+    \item \textbf{Tools:} Tenforflow, Keras, Scikit-Learn, CUDA, MPI, pthread
+	\end{itemize}
+  	\resumeSubItem
+    {Pro Accounting Solutions · Freelance Work (November 2021)}
+    {}
+    \begin{itemize}
+    \item \textbf{Work Area:} Java based Android Development
+    \item \textbf{Duty:} 
+    \begin{itemize} 
+            \item Implementing several new features in an already existing java based android app.
+            \item Improving the stability of the app and fixing bugs with firebase connection.
+            \item Revamping and modernising the app UI.
+          \end{itemize}
+    \item \textbf{Tools:} Flutter, postman, Android Studio
+	\end{itemize}
+    
+  	 \resumeSubItem
+    {Aim2Excel · Freelance Work (October 2021)}
+    {}
+    \begin{itemize}
+    \item \textbf{Work Area:} Flutter based Android Development
+    \item \textbf{Duty:} 
+    \begin{itemize} 
+            \item Improving the UI of a flutter based app.
+            \item Improving the stability of the app and fixing REST based connections to server.
+          \end{itemize}
+    \item \textbf{Tools:} Android Studio
+	\end{itemize}
+    
+	\resumeSubItem
+    {Pro Accounting Solutions · Freelance Work (September 2021)}
+    {}
+    \begin{itemize}
+    \item \textbf{Work Area:} Java based Android Development
+    \item \textbf{Duty:} 
+    \begin{itemize} 
+            \item Implementing new features in an already existing java based android app.
+          \end{itemize}
+    \item \textbf{Tools:} Android Studio
+	\end{itemize}
+    \vspace{5pt}    
+    
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{~~Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {University of Hyderabad (2021-2023)}{TG, India}
+      {Masters of Technology(M.Tech) - Information Security,  CGPA: 9.57}{2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:}  Cryptography, Maths, Ethical Hacking, Advanced Computer Network, Big Data, Reverse Engineering and Malware Analysis, Blockchain, Secure Tools and Technology, Cloud Computing}}}
+      
+    \resumeSubheading
+      { SRM Institute of Science and Technology (2016-2020)}{TN, India}
+      {Bachelor of Technology(B.Tech) - Computer Science and Engineering,  CGPA: 7.18}{2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:}  Computer Graphics, Operating Systems, Data Structures, Analysis of Algorithms, Computer Networks, SQL, TOC}}}
+    \resumeSubHeadingListEnd
+\vspace{5pt}
+
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~~~~~~~C, C++, Python, JAVA, Kotlin, Dart, JavaScript }
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~~~~~~~GDB, GCC, CUDA, CUDA-GDB, Valgrind, GIT, Wireshark, SQLite, Latex}
+	\resumeSubItem{Libraries}{~~~~~~~~~~~~~
+Scikit-Learn, Tensor Flow, Keras, OpenCV, cryptopp, QT, GMP, Boost, ReactJS, Electron, visjs}
+	\resumeSubItem{Platforms}{~~~~}{~~~~~Linux, Windows}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem{A Novel approach for Training Neural Network using Linear Programming}{Published in- International Journal of Advanced Science and Technology (SCOPUS)
+Link- http://sersc.org/journals/index.php/IJAST/article/view/8621}
+\resumeSubItem{
+ML Classifier using Multiple Neural Network Trained by Linear Programming (Manuscript submitted)}{This is a major improvement over the above algorithm.}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{Copyrights}
+\resumeSubHeadingListStart
+\resumeSubItem{Classifier software using neural network and LP solver Classifier software using neural network and LP solver}{IN SW-12271/2019 · Issued Jan 3, 2019}
+
+\resumeSubItem{
+Classifier Software Using Neural Network And LP Solver Version 2}{Diary No- 16114/2023-CO/SW}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+\section{Paper Presentations}
+  \resumeSubHeadingListStart
+	\resumeSubItem
+    {22nd Intelligent Systems Design  and Application (ISDA22)}
+    {Presented my paper "ML Classifier using Multiple Neural Network Trained by Linear Programming (Manuscript submitted)}{This is a major improvement over the above algorithm"}\\
+    \vspace{5pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{A Novel approach for Training Neural Network using Linear Programming(Non Backpropagation Neural Network)}{ This is a novel algorithm for machine learning based on a novel neural network architecture, which make use of linear programming for the optimization process. Its main advantage is that while training this network on a data-set we only need to run it for one iteration, and it manages to deliver descent accuracy with less data.\\
+https://github.com/YuvrajTalukdar/Non-Backpropagation-Neural-Network \\\textbf{Tech}: C++ std 17}
+\vspace{2pt}
+
+\resumeSubItem{ML Classifier using Multiple Neural Network Trained by Linear Programming (Core Generating Network)}{This this the version 2 of the "A Novel approach for Training Neural Network using Linear Programming". This provided a massive improvement over its predecessor and proves neural network trained using LP can come close in performance to existing methods.\\\textbf{Tech}: C++ std 17}
+\vspace{2pt}
+
+\resumeSubItem{ML Classifier using Multiple Neural Network Trained by Linear Programming CUDA Edition}{This is the CUDA implementation of the project "ML Classifier using Multiple Neural Network Trained by Linear Programming" \\\textbf{Tech}: C++ std 17, CUDA}
+\vspace{2pt}
+
+\resumeSubItem{AssameseWikiGPT (Ongoing Project)}{A transformer model trained on the entire Assamese wikipedia. \\\textbf{Tech}: Python, Tensorflow, Keras}
+\vspace{2pt}
+
+\resumeSubItem{Segment Generating Network (Ongoing Project)}{This is the next version of the project "ML Classifier using Multiple Neural Network Trained by Linear Programming". \\\textbf{Tech}: C++}
+\vspace{2pt}
+
+\resumeSubItem{OSIRIS (Open Source Information Research and Intelligence System)
+}{OSIRIS is an open source app written in JS and C++ using electron for the body, ReactJS for the frontend and C++ in the backend for storing and researching on events or relations.\\ 
+https://github.com/YuvrajTalukdar/OSIRIS \\ \textbf{Tech}: C++, cryptopp,ReactJS, Electron, MaterialUI, VisJS, JavaScript.}
+
+\resumeSubItem{Modified sobel edge detector version 1}{It is a layer above the sobel edge detection algorithm which further enhances the results from the sobel edge detector.\\ 
+https://github.com/YuvrajTalukdar/modified-sobel-edge-detector 
+\\\textbf{Tech}: C++, OpenCV }\vspace{2pt}
+
+\resumeSubItem{Modified sobel edge detector version 2}{Compared to version 1 this better detects fuggy borders. https://github.com/YuvrajTalukdar/modified-sobel-edge-detector-version2
+\\\textbf{Tech}: C++, OpenCV }\vspace{2pt}
+
+\resumeSubItem{FileCrypt and FileCrypt Native
+}{FileCrypt is a flutter based android application which helps you to securely encrypt your files in a value. FileCrypt Native is the same app but written in java and is much faster than Flutter version.\\
+ https://github.com/YuvrajTalukdar/FileCrypt\\
+ https://github.com/YuvrajTalukdar/FileCryptNative
+\\\textbf{Tech}: JAVA, Dart, Flutter, AndroidSDK}\vspace{2pt}
+
+\resumeSubItem{Expense Monitor 2}
+{This is an android app written in Kotlin for keeping track of daily expenses.\\
+Few features of the app-\\
+• It Stores the daily expense data according to custom made category and can generate a monthly report of the expenses.\\
+• It can export the expense data to a spreadsheet file which can be accessed using spreadsheet application.\\
+• It has syncing feature which allows you to sync you expenses across devices.\\
+• It helps you perform detailed analysis you your monthly expenses.\\
+https://github.com/YuvrajTalukdar/ExpenseMonitor
+\\\textbf{Tech}: Kotlin, AndroidSDK}\vspace{2pt}
+\vspace{2pt}
+
+\resumeSubHeadingListEnd
+
+\section{Links}
+  \resumeSubHeadingListStart
+	\resumeSubItem
+    {GitHub}
+    {https://github.com/YuvrajTalukdar}\\
+    \vspace{5pt}
+    \resumeSubItem
+    {LinkedIn}
+    {LinkedIn Profile:// Yuvraj Talukdar}\\
+    \vspace{5pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\end{document}
